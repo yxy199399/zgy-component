@@ -4,12 +4,12 @@ import App from "./App.vue";
 import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
-import ElementUI from "element-ui";
-import "./styles.scss";
 
-Vue.use(ElementUI);
-import { LoginOut } from "../packages";
-Vue.use(LoginOut);
+// import { LoginOut, ElTest } from "../packages";
+// Vue.use(LoginOut);
+// Vue.use(ElTest);
+import zgyComponent from "../packages";
+Vue.use(zgyComponent);
 
 Vue.config.productionTip = false;
 

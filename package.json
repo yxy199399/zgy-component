@@ -1,17 +1,17 @@
 {
   "name": "zgy-component",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
-  "main": "dist/zgy-component.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib packages/index.js",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib packages/index.js"
   },
+  "main": "dist/zgy-component.umd.min.js",
   "dependencies": {
     "core-js": "^3.6.5",
-    "element-ui": "^2.3.6",
+    "element-ui": "^2.4.5",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
@@ -34,8 +34,8 @@
     "lint-staged": "^9.5.0",
     "node-sass": "^4.12.0",
     "prettier": "^1.19.1",
-    "sass-loader": "^8.0.2",
     "vue-cli-plugin-axios": "0.0.4",
+    "vue-cli-plugin-element": "^1.0.1",
     "vue-cli-plugin-element-ui": "~1.1.4",
     "vue-template-compiler": "^2.6.11"
   },

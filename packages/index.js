@@ -1,5 +1,8 @@
 import LoginOut from "./loginOut";
-const components = [LoginOut];
+import ElTest from "./elTest";
+import "./plugins/element";
+import "./style.scss";
+const components = [LoginOut, ElTest];
 const install = Vue => {
   // 全局注册组件
   components.forEach(item => {
@@ -13,4 +16,4 @@ if (typeof window !== "undefined" && window.Vue) {
 }
 
 export default install;
-export { LoginOut };
+export { LoginOut, ElTest };
