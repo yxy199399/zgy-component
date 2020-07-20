@@ -17,3 +17,4 @@ if (typeof window !== "undefined" && window.Vue) {
 
 export default install;
 export { LoginOut, ElTest };
+// fonts文件夹下字体是elementui字体，没有运行报错
